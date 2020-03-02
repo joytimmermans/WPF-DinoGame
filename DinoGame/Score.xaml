@@ -1,0 +1,15 @@
+﻿<Window x:Class="DinoGame.Score"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DinoGame"
+        mc:Ignorable="d"
+        Title="Score" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="LijstScore" HorizontalAlignment="Left" Height="256" Margin="245,87,0,0" VerticalAlignment="Top" Width="302" Background="Black" Foreground="White"/>
+        <Label Content="Highscores" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Height="73" Margin="0,14,0,0" VerticalAlignment="Top" Width="791" FontSize="42" FontWeight="Bold"/>
+        <Button x:Name="btnTerug" Content="Exit" HorizontalAlignment="Left" Height="50" Margin="332,360,0,0" VerticalAlignment="Top" Width="135" FontWeight="Bold" FontSize="22" Background="White" Foreground="Black" BorderBrush="White" Click="BtnTerug_Click"/>
+
+    </Grid>
+</Window>
